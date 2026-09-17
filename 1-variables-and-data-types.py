@@ -9,7 +9,8 @@ Crea una variable llamada "mensaje".
 Asígnale el valor "¡Hola, Mundo!". 
 Imprime el valor de la variable en la consola.
 """
-# Escribe tu código aquí
+mensaje = "¡Hola, mundo!"
+print(mensaje)
 
 """
 --- Ejercicio 2 Variables---
