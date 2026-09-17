@@ -51,16 +51,20 @@ Imprime por consola el valor almacenado
 Despues haz los pasos pedidos
 """
 # Escribe tu código aquí
+plantas = ('cactus', 'orquidea', 'rosas')
+print(plantas)
 
 # Escribe el código para saber la cantidad de elementos que tiene la tupla, imprimir por consola
+print(len(plantas))
 
 # Escribe el código para acceder al valor de la posición 2, imprimir por consola
+print(plantas[2])
 
 # Intentar modificar una tupla
-# plantas[1] = 'hoja rota'  # Descomenta esta línea para ver qué sucede
+#plantas[1] = 'hoja rota'  # Descomenta esta línea para ver qué sucede
 
 # Escribe tu análisís acá acerca de qué sucede
-
+#TypeError: 'tuple' object does not support item assignment - Al ser una colección inmutable nos da error si la intentamos modificar.
 
 """
  --- SETS ---
