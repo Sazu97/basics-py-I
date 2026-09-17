@@ -19,8 +19,9 @@ Reasígnale el valor "Hello world!".
 Imprime el valor de la variable en la consola.
 Escribe en un comentario de línea lo que sucede.
 """
-# Escribe tu código aquí
-
+mensaje = "Hello, world!"
+print(mensaje)
+# El valor anterior se sobrescribe y ahora la variable contiene el nuevo texto.
 """
 --- Ejercicio 3 Tipos de datos---
 Crea variables para cada uno de los siguientes tipos de datos y colecciones: string, int, float, 
