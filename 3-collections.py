@@ -16,17 +16,26 @@ Imprime por consola el valor almacenado
 Despues haz los pasos pedidos
 """
 # Escribe tu código aquí
+mascotas = ['perro', 'gato', 'loro']
+print(mascotas)
 
 # Escribe el código para saber la cantidad de elementos que tiene la lista, imprimir por consola
+print(len(mascotas))
 
 # Escribe el código para acceder al valor de la posición 2, imprimir por consola
+print(mascotas[2])
 
 # Escribe el código para agregar una elemento a la lista, imprimir por consola la lista
+mascotas.append('conejo')
+print(mascotas)
 
 # Escribe el código para modificar un elemento de la lista, imprimir por consola la lista
+mascotas[0] = 'hurón'
+print(mascotas)
 
 # Escribe el código para eliminar un elemento de la lista, imprimir por consola la lista
-
+mascotas.remove('gato')
+print(mascotas)
 
 """
  --- TUPLAS ---
