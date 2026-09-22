@@ -80,16 +80,26 @@ Imprime por la terminal dicha variable
 Haz los pasos pedidos
 """
 # Escribe el código aqui
+nombres = {'María', 'Cris', 'Cris', 'Alex'}
+print(nombres)
 
 # Explica qué sucede cuándo imprimes el valor que almacena "nombres"
+# El elemento duplicado 'Cris' se elimina automáticamente.
 
 # Escribe el código para saber la cantidad de elementos que tiene el set, imprimir por consola
+print(len(nombres))
 
 # Escribe el código para acceder al valor de la posición 3, imprimir por consola
+# Los sets no tienen índice (no se puede hacer nombres[2]). Para acceder por índice primero se convierte a lista:
+print(list(nombres)[2])
 
 # Escribe el código para agregar una elemento al set, imprimir por consola el set
+nombres.add('Dani')
+print(nombres)
 
 # Escribe el código para eliminar un elemento del set, imprimir por consola el set
+nombres.remove('Alex')
+print(nombres)
 
 """
  --- DICCIONARIOS ---
