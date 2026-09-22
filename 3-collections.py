@@ -113,10 +113,23 @@ Puedes añadir, modificar y eliminar pares clave-valor.
 Crea un diccionario llamado "ciudad" con las claves 'nombre' y 'pais' y los valores 'Barcelona' y 'España' respectivamente.
 Imprime el diccionario 
 """
+ciudad = {
+    'nombre': 'Barcelona',
+    'pais': 'España'
+}
+print(ciudad)
+
 # Escribe el código aqui para acceder y ver por consola el valor de 'nombre'
+print(ciudad['nombre'])
 
 # Escribe el código aqui para añadir un nuevo par clave-valor y ver por consola el valor de 'ciudad'
+ciudad['poblacion'] = 1600000
+print(ciudad)
 
 # Escribe el código aqui para modificar el valor de un par clave-valor de 'ciudad' y verlo por consola
+ciudad['nombre'] = 'Toledo'
+print(ciudad)
 
 # Escribe el código aqui para eliminar un par clave-valor de 'ciudad' y verlo por consola
+del ciudad['poblacion']
+print(ciudad)
