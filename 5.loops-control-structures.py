@@ -93,3 +93,13 @@ si es un pájaro, que imprima en la consola "Tengo un pájaro" y
 si no es ninguno de los 3 que imprima "No tengo una mascota convencional"
 """
 # Escribe tu código aquí
+mascota = input("Introduce una mascota: ").strip().lower()
+
+if mascota == "perro":
+    print("Tengo un perro")
+elif mascota == "gato":
+    print("Tengo un gato")
+elif mascota in ("pájaro", "pajaro"):
+    print("Tengo un pájaro")
+else:
+    print("No tengo una mascota convencional")
