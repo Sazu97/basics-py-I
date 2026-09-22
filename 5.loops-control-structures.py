@@ -40,12 +40,21 @@ Escribe un programa que pida al usuario un número entero positivo y
 luego imprima la cuenta regresiva desde ese número hasta 1.
 """
 # Escribe tu código aquí
+numero = int(input("Introduce un número entero positivo: "))
+
+while numero >= 1:
+    print(numero)
+    numero -= 1
 
 """
 --- Ejercicio 4  bucle for  ---
 Escribe un programa que imprima todos los caracteres de una cadena de texto ingresada por el usuario.
 """
 # Escribe tu código aquí
+texto_usuario = input("Introduce un texto: ")
+
+for caracter in texto_usuario:
+    print(caracter)
 
 """
 --- Ejercicio 5  bucle for con range ---
