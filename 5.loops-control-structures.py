@@ -61,6 +61,8 @@ for caracter in texto_usuario:
 Escribe un programa que imprima la tabla de multiplicar del 5 (del 1 al 10).
 """
 # Escribe tu código aquí
+for i in range(1, 11):
+    print(f"5 x {i} = {5 * i}")
 
 """
 --- Ejercicio 6  bucle for con listas ---
@@ -68,6 +70,18 @@ Escribe un programa que pida al usuario 5 palabras, las guarde en una lista y
 luego en una nueva lista guarde todas las palabras en mayúsculas.
 """
 # Escribe tu código aquí
+palabras = []
+
+for i in range(5):
+    palabra = input(f"Introduce la palabra {i + 1}: ")
+    palabras.append(palabra)
+
+palabras_mayusculas = []
+for palabra in palabras:
+    palabras_mayusculas.append(palabra.upper())
+
+print("Lista original:", palabras)
+print("Lista en mayúsculas:", palabras_mayusculas)
 
 
 """
