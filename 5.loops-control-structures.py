@@ -8,7 +8,12 @@ En este taller aprenderás usar los métodos más típicos para dirigir el flujo
 Escribe un programa que pida al usuario una letra y luego imprima un mensaje indicando si es una vocal o una consonante.
 """
 # Escribe tu código aquí
+letra = input("Introduce una letra: ").lower()
 
+if letra in "aeiou":
+    print(f"La letra '{letra}' es una vocal.")
+else:
+    print(f"La letra '{letra}' es una consonante.")
 
 """
 --- Ejercicio 2  condicionales anidados  ---
@@ -16,6 +21,18 @@ Escribe un programa que pida al usuario una nota (entre 0 y 100) y determine si
 es una calificación de "A", "B", "C", "D" o "F".
 """
 # Escribe tu código aquí
+nota = float(input("Introduce una nota (entre 0 y 100): "))
+
+if nota >= 90:
+    print("Calificación: A")
+elif nota >= 70:
+    print("Calificación: B")
+elif nota >= 60:
+    print("Calificación: C")
+elif nota >= 50:
+    print("Calificación: D")
+else:
+    print("Calificación: F")
 
 """
 --- Ejercicio 3  bucle while  ---
